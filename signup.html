@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <title>Join the Platform</title>
+  </head>
+  <body class="bg-blue-600 flex items-center justify-center min-h-screen p-6 text-slate-900">
+    <form method="POST" class="bg-white p-10 rounded-3xl shadow-2xl w-full max-w-md text-slate-900">
+      <h2 class="text-3xl font-black mb-6 text-slate-900 text-center uppercase tracking-tighter">
+        Create Your Profile
+      </h2>
+      <div class="space-y-4">
+        <input
+          name="name"
+          placeholder="Full Name"
+          class="w-full p-4 bg-slate-100 text-slate-900 placeholder:text-slate-500 rounded-xl border-none focus:ring-2 focus:ring-blue-500"
+          required
+        />
+        <input
+          name="sport"
+          placeholder="Sport (e.g. Football)"
+          class="w-full p-4 bg-slate-100 text-slate-900 placeholder:text-slate-500 rounded-xl border-none focus:ring-2 focus:ring-blue-500"
+          required
+        />
+        <input
+          name="grad_year"
+          placeholder="Graduation Year"
+          class="w-full p-4 bg-slate-100 text-slate-900 placeholder:text-slate-500 rounded-xl border-none focus:ring-2 focus:ring-blue-500"
+          required
+        />
+        <input
+          name="video_url"
+          placeholder="YouTube Highlight Link"
+          class="w-full p-4 bg-slate-100 text-slate-900 placeholder:text-slate-500 rounded-xl border-none focus:ring-2 focus:ring-blue-500"
+          required
+        />
+        <textarea
+          name="bio"
+          placeholder="Short Bio / Achievements"
+          class="w-full p-4 bg-slate-100 text-slate-900 placeholder:text-slate-500 rounded-xl border-none focus:ring-2 focus:ring-blue-500"
+          rows="3"
+        ></textarea>
+        <button
+          type="submit"
+          class="w-full bg-blue-600 text-white font-black p-4 rounded-xl hover:bg-blue-700 transition uppercase tracking-widest shadow-lg"
+        >
+          Launch My Profile 🚀
+        </button>
+      </div>
+    </form>
+  </body>
+</html>
